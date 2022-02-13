@@ -1,0 +1,201 @@
+.App{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ExpenseContainer{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    /* border: 1px solid #ccc; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px #c3c3c3;
+
+}
+
+.balanceContaiener{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 0;
+}
+.balance {
+    font-weight: 600;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel{
+    background-color: #cc0000;
+}
+
+
+.result{
+    margin: 30px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result p {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px 15px;
+}
+
+.result p span {
+    font-weight: 600;
+    color: green;
+}
+
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #dadada; */
+    padding: 20px 20px 30px;
+    border-radius: 4px;
+    min-height: 220px;
+    justify-content: space-between;
+    margin: 30px 0 10px;
+    align-items: center;
+    box-shadow: 1px 5px 10px #dddddd, 0px -1px 4px #dddddd;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.form .inputs input {
+    outline: none;
+    width: 100%;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.form .inputs input:focus{
+    border: 2px solid black;
+}
+
+.form .radioBox {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 5px;
+}
+
+.form .radioBox div {
+    display: flex;
+    align-items: center;
+}
+.radioBox div input[type=radio] {
+    margin-right: 2px;
+}
+
+.addTransAction{
+    padding: 7px 30px;
+    width: fit-content;
+    margin-top: 15px;
+    background-color: green;
+}
+
+.cancelAdd{
+    background-color: #ee221b;
+}
+
+.red{
+    color: #f00000;
+}
+
+.green {
+    color: #006e00;
+}
+
+.transactionsContainer{
+    width: 350px;
+    margin-top: 30px;
+    padding: 10px 10px 20px;
+    box-shadow: 5px 10px 20px #c3c3c3;
+    display: flex;
+    flex-direction: column;
+}
+
+.transactionsContainer p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 30px 20px;
+}
+.transactionsContainer p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 30px;
+    margin: 10px 30px 0;
+    padding: 5px 10px;
+}
+
+.transaction{
+    background-color: #ebebeb;
+    margin: 10px 30px 0;
+    padding: 5px 10px;
+    border-right: 4px solid green;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.transaction span {
+    font-weight: 600;
+}
+
+
+.searchInput{
+    display: block;
+    width: 260px;
+    margin: 0 auto;
+    padding: 7px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #e2e2e2;
+    color: #4d4d4d;
+}
+
+
+
+
+.deleteIcon {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #d30000;
+    cursor: pointer;
+}
+
